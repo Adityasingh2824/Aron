@@ -4,5 +4,6 @@ import DemoConsole from './demo-console';
 
 export default function ConsolePage() {
   if (isSupabaseConfigured()) redirect('/dashboard');
+  if (process.env.VERCEL) redirect('/login');
   return <DemoConsole/>;
 }
