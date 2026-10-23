@@ -1,0 +1,7 @@
+node_modules/
+.next/
+.env*
+!.env.example
+data/*.sqlite*
+*.tsbuildinfo
+Aron_AI_Agent_Control_Plane_Build_Plan.docx
